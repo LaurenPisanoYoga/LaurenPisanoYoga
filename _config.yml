@@ -1,15 +1,73 @@
 # main text of home
-name: John Doe
-bio: 'A Man who travels the world eating noodles'
+name: Lauren Pisano Yoga
+bio: 'All are welcome'
 
 # if it's an external image, update below for true
 external-image: false
-picture: 'assets/images/profile.jpg'
+picture: 'assets/images/lauren_headshot.jpg'
 
-url: http://koppl.in/indigo
-# your url: http://USERNAME.github.io
+retreats:
+  -
+    title: 'Shambala Petit, Tulum, Mexico'
+    date: 'May 14-21st, 2016'
+    image: 'tulum.jpg'
+    description: 'This spring join Mike Richardson and myself on retreat to Tulum for an experience of community, adventure and healing. It will be a wonderfully small, intimate group of 18 attendees. We will travel to Shambala Petit Hotel in Tulum, an incredible oasis, where we will lounge beachside next to crystal blue Caribbean waters, explore Mayan ruins, swim in natural pools, explore ocean caves, practice yoga twice a day and build positive, lasting friendships. Email me for more information at Lmpisano1@gmail.com or visit <a href="http://www.twistedyogi.com/events/retreats/">Mike’s website</a>.'
+  -
+    title: 'Mayacamas Ranch, Calistoga, CA'
+    date: 'July 3-6th, 2016'
+    image: 'mayacamas.png'
+    description: 'During the Fourth of July holiday join me and Mike Richardson as we immerse in the practice of yoga and celebrate our freedom. The freedom to explore your practice, your intentions and your heart’s deepest desire. This retreat is all about nurturing and honoring YOU. Imagine 2 yoga classes a day (a refreshing morning flow and an evening restorative flow), 3 delicious meals, nature hikes, canoeing, swimming, hot tubing, campfires and serenity. This retreat offers a special opportunity to disconnect from your day to day experience, reconnect with yourself and make new friends. For more information and sign-ups, visit <a href="http://www.twistedyogi.com/events/retreats/">Mike’s website</a>.'
+  -
+    title: 'Mayacamas Ranch, Calistoga, CA'
+    date: 'November 25-27th, 2016'
+    description: 'Mike Richardson and I are also co-offering the second annual Thanksflowing yoga retreat in Napa Valley, California. For more information, visit <a href="http://www.twistedyogi.com/events/retreats/">Mike’s website</a>.'
 
-permalink: /:title
+schedule:
+  -
+    title: 'Yoga Flow SF Ocean'
+    details: 'heated, 80 degrees'
+    classes:
+      -
+        title: 'All Level Flow'
+        time: 'Tues 6:30pm'
+      -
+        title: 'All Level Flow'
+        time: 'Thurs 6:30pm'
+      -
+        title: 'All Level Flow'
+        time: 'Fri 9:00am'
+      -
+        title: 'All Level Flow'
+        time: 'Sat 9:00am'
+  -
+    title: 'Yoga Flow SF Union'
+    details: 'heated, 80 degrees'
+    classes:
+      -
+        title: 'All Level Flow'
+        time: 'Sat 3:00 pm'
+  -
+    title: 'Yoga Tree Hayes Valley'
+    classes:
+      -
+        title: 'Vinyasa All Levels'
+        time: 'Tues 3:00pm'
+      -
+        title: 'Vinyasa All Levels'
+        time: 'Thurs 3:00 pm'
+  -
+    title: 'Jewish Community Center of San Francisco '
+    classes:
+      -
+        title: 'Intermediate Vinyasa'
+        time: 'Tues 6:30 am'
+      -
+        title: 'Intermediate Vinyasa'
+        time: 'Thurs 6:30 am'
+
+url: http://LaurenPisanoYoga.github.io
+
+permalink: /:title/
 
 markdown: kramdown
 highlighter: rouge
@@ -22,21 +80,12 @@ highlighter: rouge
 # analytics-piwik-id: 1
 
 # if you don't want comments in your posts, set to false
-disqus: mydisqus
+disqus: false
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
-# google: mygoogle
-# instagram: myinstagram
-# pinterest: mypinterest
-# linkedin: mylinkedin
-youtube: myyoutube
-spotify: myspotify
-github: mygithub
-medium: medium
-vimeo: myvimeo
-email: myemail@gmail.com
+facebook: LaurenPisanoRD
+instagram: laurenpisanoyoga
+email: Lmpisano1@gmail.com
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -47,12 +96,6 @@ width: normal
 # paginate: 5
 # paginate_path: "blog/:num/"
 
-# if you don't need projects, comment the *projects* configs below
-projects: true
-
-# if you don't need "about" or "blog", comment them out below
-about: true
-blog: true
 
 # do you want to show the "read time" of the posts?
 read-time: true
@@ -64,7 +107,7 @@ show-tags: true
 related: true
 
 # do you want some animations?
-animation: true
+animation: false
 
 gems:
   - jemoji
