@@ -289,7 +289,7 @@ h1 {
   font-size: 3rem;
   letter-spacing: -1px;
   color: #222;
-  font-weight: 700;
+  font-weight: 500;
 }
 h2 {
   font-size: 2.2rem;
@@ -305,7 +305,7 @@ a {
   text-decoration: underline;
 }
 p {
-  line-height: 1.7;
+  line-height: 1.4;
   color: #666;
   font-weight: 300;
   margin-bottom: 20px;
@@ -355,6 +355,11 @@ figcaption {
 blockquote {
   padding-left: 15px;
   border-left: 3px solid #eee;
+  line-height: 1.4;
+  color: #666;
+  font-weight: 300;
+  margin-bottom: 20px;
+  letter-spacing: 0.4px;
 }
 hr {
   border: none;
@@ -369,7 +374,7 @@ figure.highlight {
 }
 code,
 tt {
-  padding: 1px 0;
+  padding: 1px 3px;
   font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
   font-size: 12px;
   line-height: 20px;
@@ -414,6 +419,34 @@ pre {
 .wrapper-large {
   max-width: 810px;
 }
+.detail {
+  font-weight: 200;
+  font-size: 0.9em;
+}
+.image--left {
+  float: left;
+  width: 270px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+.image--right {
+  float: right;
+  width: 270px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+.push-bottom {
+  margin-bottom: 10px;
+}
+.flush {
+  margin: 0;
+}
+.flush--bottom {
+  margin-bottom: 0;
+}
+.flush--top {
+  margin-top: 0;
+}
 .text-center {
   text-align: center;
 }
@@ -430,8 +463,6 @@ pre {
           animation: fade-in-down 0.6s;
   -webkit-animation-delay: 0.3s;
           animation-delay: 0.3s;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
 }
 @-webkit-keyframes fade-in-down {
   0% {
@@ -597,11 +628,6 @@ pre {
 .post > h3 a,
 .post > h4 a {
   text-decoration: none;
-}
-.post > .title-image {
-  max-height: 120px;
-  display: block;
-  margin: 0 auto;
 }
 .tags {
   margin-top: 125px;
@@ -1128,6 +1154,7 @@ pre {
 }
 .social-links {
   margin-top: 20px;
+  text-align: center;
 }
 .social-links > .link {
   margin: 0;
@@ -1144,7 +1171,6 @@ pre {
   opacity: 1;
   -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
-  white-space: nowrap;
 }
 .social-links > .link:before {
   content: attr(data-title);
