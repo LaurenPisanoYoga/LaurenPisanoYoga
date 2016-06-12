@@ -1,0 +1,81 @@
+// Variables
+$fontSans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$alpha   : #666;
+$beta    : #222;
+$gama    : #aaa;
+$delta   : #4b0082;
+$epsilon : #ededed;
+
+
+body {
+	line-height: 1;
+	font: 16px $fontSans;
+  color: $alpha;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4 {
+	font-family: $fontSans;
+	color: $beta;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+p {
+	line-height: 1.4;
+	color: $alpha;
+	font-weight: 300;
+	margin-bottom: 20px;
+	letter-spacing: 0.4px;
+}
+
+.detail {
+  font-weight: 200;
+  font-size: 0.9em;
+}
+
+.image--left {
+  float: left;
+  width: 270px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+
+.image--right {
+  float: right;
+  width: 270px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+.push-bottom {
+  margin-bottom: 10px
+}
+
+.flush {
+  margin: 0;
+  &--bottom { margin-bottom: 0; }
+  &--top { margin-top: 0; }
+}
+
+.wrapper-normal {
+	max-width: 560px;
+}
+
+.wrapper-large {
+	max-width: 810px;
+	height: 100%;
+	width: 96%;
+	margin: 0 auto;
+}
+
+.icon {
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  fill: #000;
+  text-align: center;
+  color: #000;
+  margin: 7px auto;
+}

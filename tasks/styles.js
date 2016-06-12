@@ -4,9 +4,20 @@ var gulp        = require('gulp'),
 
     // stylus
     stylus      = require('gulp-stylus'),
-	rupture     = require('rupture'),
-	prefixer    = require('autoprefixer-stylus'),
+    rupture     = require('rupture'),
+    prefixer    = require('autoprefixer-stylus'),
     nib         = require('nib');
+
+var sass = require('gulp-sass');
+
+gulp.task('sass-styles', function() {
+  gulp.src('assets/styles/sass/style.scss')
+  .pipe(plumber())
+  .pipe(sass().on('error', sass.logError))
+  .pipe(gulp.dest('_includes'))
+  .pipe(gulp.dest('assets/styles'))
+  .pipe(browserSync.reload({stream: true}));
+});
 
 gulp.task('styles', function() {
     return gulp.src('assets/styles/main.styl')

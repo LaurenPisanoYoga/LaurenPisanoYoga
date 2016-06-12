@@ -1,10 +1,8 @@
 ---
-layout: default
-permalink: /retreats/index.html
 title: Retreats
+layout: page
+permalink: /retreats/index.html
 ---
-{% include header.html %}
-
 <h1 class="title">{{ page.title }}</h1>
 
 <section class="list">
@@ -26,5 +24,3 @@ title: Retreats
     </div>
   {% endfor %}
 </section>
-
-{% include footer.html %}

@@ -1,27 +1,14 @@
-<nav class="{% if page.title == "Home" %}nav-home{% else %}nav{% endif %}">
-    <ul class="list">
-        {% if page.title != "Home" %}
-            <li class="item">
-                <a class="link" href="{{ site.url }}/">Home</a>
-            </li>
-        {% endif %}
-
-        {% if page.title != "Retreats" %}
-            <li class="item">
-                <a class="link" href="{{ site.url }}/retreats">Retreats</a>
-            </li>
-        {% endif %}
-
-        {% if page.title != "Schedule" %}
-            <li class="item">
-                <a class="link" href="{{ site.url }}/schedule">Schedule</a>
-            </li>
-        {% endif %}
-
-        {% if page.title != "About" %}
-            <li class="item">
-                <a class="link" href="{{ site.url }}/about">About</a>
-            </li>
-        {% endif %}
-    </ul>
+<nav class="nav wrapper-large">
+  <h3 class="nav__title"><a class="nav__title__link" href="{{ site.url }}/">Lauren Pisano Yoga</a></h3>
+  <ul class="nav__list">
+    <li class="nav__item">
+      <a class="nav__item__link" href="{{ site.url }}/retreats">Retreats</a>
+    </li>
+    <li class="nav__item">
+      <a class="nav__item__link" href="{{ site.url }}/schedule">Schedule</a>
+    </li>
+    <li class="nav__item">
+      <a class="nav__item__link" href="{{ site.url }}/about">About</a>
+    </li>
+  </ul>
 </nav>
