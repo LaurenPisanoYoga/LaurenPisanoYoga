@@ -3,17 +3,12 @@ title: About
 layout: page
 permalink: /about/index.html
 ---
-![Profile Image]({{ site.url }}/{{ site.picture }})
+<p class="text--center">
+  <img class="profile-photo" src="{{ site.url }}/{{ site.picture }}" alt="">
+</p>
 
 {% include social-links.html %}
 
-<p>Welcome and thank you. I am so happy that we’ve connected. If we haven’t met yet,
-I hope to meet you very soon. I am blessed to serve as a yoga instructor in
-San Francisco, California. I remain a student of my teachers Stephanie Adams,
-Adi Vajra, Rusty Wells and Janet Stone.</p>
+<p>Lauren holds space with strength, authenticity and depth that comes from an appreciation of the yogic path instilled in her by her teachers. She provides a nurturing, grounding and powerful class offering space for challenge and inquiry.</p>
 
-<blockquote>
-“Lifetimes of spiritual work and sadhana cannot accomplish what one single moment can show you when you are truly available. Let all your practices go, for just a moment, to see what in you has never required a practice.”
-</blockquote>
-<cite>Beautiful words from my teacher, Adi Vajra.</cite>
-
+<p>She continues to study under her first teachers Adi Vajra and Stephanie Adams of Hood River, Oregon. She has also studied under and been inspired by Rusty Wells and Janet Stone of San Francisco, California.</p>

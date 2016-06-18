@@ -79,3 +79,15 @@ p {
   color: #000;
   margin: 7px auto;
 }
+
+.text {
+  &--center { text-align: center; }
+}
+
+.profile-photo {
+  width: 300px;
+}
+
+.item {
+  &--push { margin-bottom: 100px; }
+}

@@ -7,7 +7,7 @@ permalink: /retreats/index.html
 
 <section class="list">
   {% for retreat in site.retreats %}
-    <div class="item">
+    <div class="item--push">
       <h2 class="title flush--bottom">{{ retreat.title }}</h2>
       <h4 class="flush--top">{{ retreat.date }}</h4>
       <p>

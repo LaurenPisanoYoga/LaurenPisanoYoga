@@ -8,15 +8,14 @@ picture: 'assets/images/lauren_headshot.jpg'
 
 retreats:
   -
-    title: 'Shambala Petit, Tulum, Mexico'
-    date: 'May 14-21st, 2016'
-    image: 'tulum.jpg'
-    description: 'This spring join Mike Richardson and myself on retreat to Tulum for an experience of community, adventure and healing. It will be a wonderfully small, intimate group of 18 attendees. We will travel to Shambala Petit Hotel in Tulum, an incredible oasis, where we will lounge beachside next to crystal blue Caribbean waters, explore Mayan ruins, swim in natural pools, explore ocean caves, practice yoga twice a day and build positive, lasting friendships. Email me for more information at Lmpisano1@gmail.com or visit <a href="http://www.twistedyogi.com/events/retreats/">Mike’s website</a>.'
-  -
     title: 'Mayacamas Ranch, Calistoga, CA'
     date: 'July 3-6th, 2016'
     image: 'mayacamas.png'
     description: 'During the Fourth of July holiday join me and Mike Richardson as we immerse in the practice of yoga and celebrate our freedom. The freedom to explore your practice, your intentions and your heart’s deepest desire. This retreat is all about nurturing and honoring YOU. Imagine 2 yoga classes a day (a refreshing morning flow and an evening restorative flow), 3 delicious meals, nature hikes, canoeing, swimming, hot tubing, campfires and serenity. This retreat offers a special opportunity to disconnect from your day to day experience, reconnect with yourself and make new friends. For more information and sign-ups, visit <a href="http://www.twistedyogi.com/events/retreats/">Mike’s website</a>.'
+  -
+    title: 'Yoga Philosophy in Practice, Yoga Flow SF Ocean, San Francisco, CA'
+    date: 'Wed July 13, 20 and 27, 2016 at 6:30pm'
+    description: 'An open, interactive, thought-provoking discussion of yogic philosophy centered on the Yamas, Niyamas and Kleshas of Patanjali’s Yoga Sutras. These teachings are at the core of our yoga practice and can widen our perspective of life, self and relationships. We will have thoughtful discourse on the teachings and discuss how these concepts show up in our lives. No prior knowledge is needed. Learn more and sign up at <a href="www.yogaflowsf.com">www.yogaflowsf.com</a> under Ocean events.'
   -
     title: 'Mayacamas Ranch, Calistoga, CA'
     date: 'November 25-27th, 2016'
@@ -64,6 +63,14 @@ schedule:
       -
         title: 'Intermediate Vinyasa'
         time: 'Thurs 6:30 am'
+
+carousel_images:
+  - "assets/images/yellow_cap.jpg"
+  - "assets/images/twist.jpg"
+  - "assets/images/water.jpg"
+  - "assets/images/aztec.jpg"
+  - "assets/images/spider.jpg"
+
 
 url: http://LaurenPisanoYoga.github.io
 
