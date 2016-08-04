@@ -9,4 +9,4 @@ permalink: /about/index.html
 
 {% include social-links.html %}
 
-{{{ site.bio }}}
+{{ site.bio }}
