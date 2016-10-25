@@ -40,12 +40,12 @@ schedule:
         title: 'All Level Flow'
         time: 'Sat 9:00am'
   -
-    title: 'Yoga Flow SF Union'
-    details: 'heated, 80 degrees'
-    classes:
+    # title: 'Yoga Flow SF Union'
+    # details: 'heated, 80 degrees'
+    # classes:
       -
-        title: 'All Level Flow'
-        time: 'Sat 3:00 pm'
+        # title: 'All Level Flow'
+        # time: 'Sat 3:00 pm'
   -
     title: 'Yoga Tree Castro'
     classes:
