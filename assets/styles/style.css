@@ -69,6 +69,12 @@ p {
 .profile-photo {
   width: 300px; }
 
+.homepage-quote {
+  text-align: center;
+  font-size: 31px;
+  margin-top: 35px;
+  font-style: italic; }
+
 .item--push {
   margin-bottom: 100px; }
 

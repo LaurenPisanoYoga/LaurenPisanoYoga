@@ -14,14 +14,27 @@ Lauren</p>'
 external-image: false
 picture: 'assets/images/lauren_headshot.jpg'
 
-retreats:
+events:
   -
-    title: 'Stay tuned...'
-  # -
-    # title: 'Yoga Philosophy in Practice, Yoga Flow SF Ocean, San Francisco, CA'
-    # date: 'Wed July 13, 20 and 27, 2016 at 6:30pm'
-    # description: 'An open, interactive, thought-provoking discussion of yogic philosophy centered on the Yamas, Niyamas and Kleshas of Patanjali’s Yoga Sutras. These teachings are at the core of our yoga practice and can widen our perspective of life, self and relationships. We will have thoughtful discourse on the teachings and discuss how these concepts show up in our lives. No prior knowledge is needed. Learn more and sign up at <a href="www.yogaflowsf.com">www.yogaflowsf.com</a> under Ocean events.'
-  
+    title: 'Downtempo Flow with Lauren Pisano and DJ Flashflooder'
+    date: 'Nov 17, 2016 630pm-755pm at Yoga Flow SF Ocean'
+    description: 'Join Lauren Pisano and DJ Flashflooder for a flow yoga class set to a backdrop of hand-selected downtempo, ambient and experimental music.<br><br> A little more about DJ Flashflooder: Christopher Lim is a bay area based DJ best known for his eclectic tastes and mixing style which provides him the flexibility to navigate the dance floor, the lounge, or the yoga studio with ease. Having always been a champion of downtempo, ambient, and experimental music, performing alongside yogis comes naturally to him and is exemplified by his ability to assist the students in getting lost in the art of yoga and music, offering a brief escape from the trappings of every day life. Music is his #1 passion and this comes through clearly in his past contributions to KALX Berkeley and DJ Techtools, his involvement in the Zero Fucks’ crew’s events such as the monthly House of Bass show, and from his popular podcast A State of Trap. <br><br> <a href="www.yogaflowsf.com">www.yogaflowsf.com</a>'  
+  -
+    title: 'Diving Deeper: 15-hour Weekend Yoga Intensive with Lauren Pisano'
+    date: 'January 20-22, 2016'
+    description: >
+      Spend a weekend diving deeper into the practice of yoga
+      with Lauren and a small group of yogis.<br>
+      We will intimately discuss yoga philosophy, break down common yoga poses, learn the meanings of
+      mantras and practice chanting together. This urban retreat is an opportunity to deepen your yoga
+      practice, have fun, connect and heal.<br><br>
+      Schedule:<br>
+      Friday Jan 20th: 6:00pm -8:30pm at YFSF Ocean<br>
+      Saturday Jan 21st: 9am -10:30am Practice with Lauren at YFSF Ocean. 12:30pm -6:30pm at YFSF Ocean.<br>
+      Sunday Jan 22nd: 1:00pm -6:30pm at YFSF Ocean.<br>
+
+
+
 schedule:
   -
     title: 'Yoga Flow SF Ocean'

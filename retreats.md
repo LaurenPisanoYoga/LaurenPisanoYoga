@@ -1,25 +1,25 @@
 ---
-title: Retreats
+title: Events
 layout: page
-permalink: /retreats/index.html
+permalink: /events/index.html
 ---
 <h1 class="title">{{ page.title }}</h1>
 
 <section class="list">
-  {% for retreat in site.retreats %}
+  {% for event in site.events %}
     <div class="item--push">
-      <h2 class="title flush--bottom">{{ retreat.title }}</h2>
-      <h4 class="flush--top">{{ retreat.date }}</h4>
+      <h2 class="title flush--bottom">{{ event.title }}</h2>
+      <h4 class="flush--top">{{ event.date }}</h4>
       <p>
-        {% if retreat.image %}
+        {% if event.image %}
           {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
           {% if thecycle == 'odd' %}
-            <img src="/assets/images/{{ retreat.image }}" class="image--left" alt="">
+            <img src="/assets/images/{{ event.image }}" class="image--left" alt="">
           {% else %}
-            <img src="/assets/images/{{ retreat.image }}" class="image--right" alt="">
+            <img src="/assets/images/{{ event.image }}" class="image--right" alt="">
           {% endif %}
         {% endif %}
-        {{ retreat.description }}
+        {{ event.description }}
       </p>
     </div>
   {% endfor %}
